@@ -29,7 +29,7 @@ public class SnowFlakeHostService(ILogger<SnowFlakeHostService> logger, ICacheSe
                     }
                     else
                     {
-                        value += 1;
+                        value++;
                     }
                     if (value >= workMax)
                     {
